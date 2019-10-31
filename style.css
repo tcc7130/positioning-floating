@@ -3,7 +3,7 @@ body{
 }
 nav{
     position: fixed;
-    margin: -19px 0;
+    margin: -8px 0;
     padding: 15px 2vw;
     background: #fff;
 }
@@ -24,4 +24,54 @@ nav img{
 }
 .nav_right{
     float: right;
+}
+article{
+    padding-top: 2em;
+}
+article h3 {
+    text-align: center;
+    
+}
+.article_image{
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 65%;
+}
+article img {
+    width:auto;
+    height:700px;
+}
+.author{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width:35%;
+    font-style: bold;
+}
+.date_icon{
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+    width: 35%;
+
+
+}
+.display_inline{
+    display:inline;
+}
+
+.content_icons{
+    float: right;}
+.content_icons a {
+    margin: 0.5em;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 5px;
+}
+.content_icons a img{
+    width: 15px;
+    height: 15px;
+
 }
