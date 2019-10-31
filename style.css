@@ -13,11 +13,9 @@ nav{
     text-align: center;
     height: 30px;
 }
-
 .nav_float{
     float:left;  
 }
-
 nav img{
     width: auto;
     height: 30px;    
@@ -30,10 +28,8 @@ article{
 }
 article h3 {
     text-align: center;
-    
 }
 .article_image{
-    
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -55,23 +51,48 @@ article img {
     margin-right: auto;
     margin-left:auto;
     width: 35%;
-
-
 }
 .display_inline{
     display:inline;
 }
-
 .content_icons{
-    float: right;}
+    float: right;
+}
 .content_icons a {
-    margin: 0.5em;
+    margin: 5px;
     border-radius: 50%;
-    background-color: grey;
-    padding: 5px;
+    background-color: #eee;
+    padding: 5px 8px;
 }
 .content_icons a img{
     width: 15px;
     height: 15px;
-
+}
+.content_icons>a>i{
+    color: #000000;
+}
+.bg-theory{
+    max-width: 945px;
+    height: 576px;
+    margin: 0 auto;
+    background: url(image/img2.png) no-repeat center;
+    background-size: cover;
+}
+.bg-theory>div{
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    width: 25%;
+    float: left;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 13%;
+}
+.bg-theory>div>p{
+    padding: 0 5px;
+}
+#short-line{
+    width: 4em;
+    float: left;
+}
+#short-line + p{
+    clear: left;
 }
