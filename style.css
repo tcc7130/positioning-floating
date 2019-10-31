@@ -6,16 +6,15 @@ nav , nav div {
 }
 .navbar{
     position : fixed;
-
+    text-align: center;
 }
 .nav_icon{
-float: left;
-width: 33%;
+    float: left;
+    width: 33%;
 }
 nav img{
-    width: 200px;
-    height: auto;
-    float:;
+    width: auto;
+    height: 26px;
     width: 33%;
 }
 .nav_right{
