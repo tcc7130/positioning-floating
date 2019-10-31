@@ -1,23 +1,25 @@
 body{
+box-sizing: border-box;
+}
 
+.clearfix ::after{
+content: "";
+clear: both;
+display: table;
 }
-nav , nav div {
-    display :inline;
+
+.nav_float{
+
+    float:left;
+    width: 33.33%;
+    
 }
-.navbar{
-    position : fixed;
-    text-align: center;
-}
-.nav_icon{
-    float: left;
-    width: 33%;
-}
+
 nav img{
     width: auto;
     height: 26px;
-    width: 33%;
+    
 }
 .nav_right{
-    float: right;
-    width: 33%;
+    display: table;
 }
