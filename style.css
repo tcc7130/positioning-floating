@@ -1,25 +1,27 @@
 body{
-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-.clearfix ::after{
-content: "";
-clear: both;
-display: table;
+nav{
+    position: fixed;
+    margin: -19px 0;
+    padding: 15px 2vw;
+    background: #fff;
+}
+.navbar-wrapper{
+    display: block;
+    width: 97vw;
+    text-align: center;
+    height: 30px;
 }
 
 .nav_float{
-
-    float:left;
-    width: 33.33%;
-    
+    float:left;  
 }
 
 nav img{
     width: auto;
-    height: 26px;
-    
+    height: 30px;    
 }
 .nav_right{
-    display: table;
+    float: right;
 }
