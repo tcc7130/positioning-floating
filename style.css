@@ -71,6 +71,12 @@ article img {
 .content_icons>a>i{
     color: #000000;
 }
+.theory-inflation{
+    max-width: 945px;
+    height: auto;
+    margin: 0 auto;
+
+}
 .bg-theory{
     max-width: 945px;
     height: 576px;
@@ -95,4 +101,29 @@ article img {
 }
 #short-line + p{
     clear: left;
+}
+.telescope_image{
+    max-width: 100%;
+    height : auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width:35%;
+
+}
+.more_content{
+    width: 33%;
+    float: left;
+}
+.more_content img{
+    width: 100%;
+    height:auto;
+}
+.more_info1{
+float: left;
+width: 75%;
+}
+.more_info2{
+float: left;
+width: 25%;
 }
